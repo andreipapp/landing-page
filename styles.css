@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    font-family: Roboto;
+}
+/* section1 */
+.section-1{
+    background-color: #1f2937;
+
+}
+.logo{
+    font-size: 24px;
+    color: rgb(249, 250, 248);
+    font-weight: 700;
+}
+ul{
+    list-style: none;
+    color: rgb(229, 231, 235);
+    font-weight: 18px;
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap:30px;
+}
+.content-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 10px;
+    gap:50px;
+}
+h1{
+    font-size: 48px;
+    font-weight:  800;
+    color:#f9faf8;
+    margin:0;
+}
+.info{
+    font-size: 18px;
+    color:#e5e7eb;
+    text-align:start;
+}
+button{
+    background-color: #3882f6;
+    color:#f9faf8;
+    padding:7px 23px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 10px;
+}
+.flex-1{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+/* section1-end */
+
+/* section-2 */
+.section-2  h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    margin: 25px 0;
+}
+.text{
+    font-size: 14px;
+    color: lightslategray;
+    text-align: center;
+
+}
+.content-2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:40px;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    max-width: 135px;
+   
+}
+.card .outline{
+    border:3px solid #3882f6;
+    height: 130px;
+    width:130px;
+    border-radius: 10%;
+}
