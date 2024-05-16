@@ -5,7 +5,7 @@ body{
 /* section1 */
 .section-1{
     background-color: #1f2937;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 .logo{
     font-size: 24px;
@@ -30,7 +30,7 @@ ul{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 10px;
     gap:50px;
 }
@@ -128,4 +128,55 @@ button{
   padding-bottom: 50px;
   padding-right: 50px;
 
+}
+/* section3-end */
+
+/* section4 */
+.section-4,.container-4{
+    display:flex;
+}
+.section-4{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    
+}
+.container-4{
+    justify-content: space-between; 
+    background-color: #3882f6;
+    padding : 10px 60px;
+    gap:100px;
+    border-radius:10px;
+}
+.btn4{
+    border:2px solid #f9faf8;
+    padding: 7px 30px;
+}
+.left4{
+    display: flex;
+    align-items: center;
+}
+.right4{
+    color:#f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 10px;
+
+}
+.s4{
+    margin:0
+}
+
+/* section4-end */
+
+/* footer */
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px
 }
